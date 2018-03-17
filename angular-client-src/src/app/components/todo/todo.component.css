@@ -1,0 +1,9 @@
+.middle-align > td{
+    vertical-align: middle
+}
+
+.todoStatus{
+float: right;
+margin-top: 8px;
+font-size: 15px
+}
