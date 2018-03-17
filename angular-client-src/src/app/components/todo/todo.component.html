@@ -29,8 +29,8 @@
                             <tr class="middle-align" *ngFor="let item of todos; let i = index">
                                 <td style="text-align: center">{{ i + 1 }}</td>
                                 <td>{{ item.title }}</td>
-                                <td>{{ item.createdAt | date : 'dd.MM.yyyy hh:mm:ss'}}</td>
-                                <td>{{ item.completedAt | date : 'dd.MM.yyyy hh:mm:ss'}}</td>
+                                <td>{{ item.createdAt | date : 'dd.MM.yyyy HH:mm:ss'}}</td>
+                                <td>{{ item.completedAt | date : 'dd.MM.yyyy HH:mm:ss'}}</td>
                                 <td class="text-center">
                                     <div [ngSwitch]="item.complete">
                                         <span *ngSwitchCase="true" class="badge badge-success">
